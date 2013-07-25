@@ -29,14 +29,14 @@
 		2746531E174A9F690013546E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2746531D174A9F690013546E /* Default@2x.png */; };
 		27465320174A9F690013546E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2746531F174A9F690013546E /* Default-568h@2x.png */; };
 		27465323174A9F690013546E /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27465322174A9F690013546E /* WorkoutViewController.m */; };
-		27465326174A9F6C0013546E /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27465325174A9F6C0013546E /* KinveyKit.framework */; };
-		27465328174A9F6C0013546E /* libUAirshipPush-1.3.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27465327174A9F6C0013546E /* libUAirshipPush-1.3.3.a */; };
 		2746532B174A9F6D0013546E /* WorkoutViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27465329174A9F6D0013546E /* WorkoutViewController_iPhone.xib */; };
 		27465336174A9FA30013546E /* Workout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27465335174A9FA30013546E /* Workout.m */; };
 		2746533C174C001C0013546E /* RepRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2746533B174C001C0013546E /* RepRowCell.m */; };
 		27465406175010280013546E /* ZonePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27465404175010280013546E /* ZonePickerViewController.m */; };
 		27465407175010280013546E /* ZonePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27465405175010280013546E /* ZonePickerViewController.xib */; };
 		274654091750104F0013546E /* werkoutman.png in Resources */ = {isa = PBXBuildFile; fileRef = 274654081750104F0013546E /* werkoutman.png */; };
+		27727C8417A16082009539D9 /* libUAirship-1.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27727C8317A16082009539D9 /* libUAirship-1.4.0.a */; };
+		27727C8617A1608B009539D9 /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27727C8517A1608B009539D9 /* KinveyKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,8 +70,6 @@
 		2746531F174A9F690013546E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		27465321174A9F690013546E /* WorkoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
 		27465322174A9F690013546E /* WorkoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
-		27465325174A9F6C0013546E /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
-		27465327174A9F6C0013546E /* libUAirshipPush-1.3.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libUAirshipPush-1.3.3.a"; sourceTree = "<group>"; };
 		2746532A174A9F6D0013546E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WorkoutViewController_iPhone.xib; sourceTree = "<group>"; };
 		27465334174A9FA30013546E /* Workout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workout.h; sourceTree = "<group>"; };
 		27465335174A9FA30013546E /* Workout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workout.m; sourceTree = "<group>"; };
@@ -81,6 +79,8 @@
 		27465404175010280013546E /* ZonePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZonePickerViewController.m; sourceTree = "<group>"; };
 		27465405175010280013546E /* ZonePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZonePickerViewController.xib; sourceTree = "<group>"; };
 		274654081750104F0013546E /* werkoutman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = werkoutman.png; sourceTree = "<group>"; };
+		27727C8317A16082009539D9 /* libUAirship-1.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUAirship-1.4.0.a"; path = "Workout/Airship/libUAirship-1.4.0.a"; sourceTree = "<group>"; };
+		27727C8517A1608B009539D9 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KinveyKit.framework; path = Workout/Kinvey/KinveyKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +96,12 @@
 				27465302174A9F690013546E /* Accounts.framework in Frameworks */,
 				27465304174A9F690013546E /* CFNetwork.framework in Frameworks */,
 				27465306174A9F690013546E /* CoreLocation.framework in Frameworks */,
+				27727C8417A16082009539D9 /* libUAirship-1.4.0.a in Frameworks */,
 				27465308174A9F690013546E /* MobileCoreServices.framework in Frameworks */,
 				2746530A174A9F690013546E /* Security.framework in Frameworks */,
 				2746530C174A9F690013546E /* SystemConfiguration.framework in Frameworks */,
 				2746530E174A9F690013546E /* Twitter.framework in Frameworks */,
-				27465326174A9F6C0013546E /* KinveyKit.framework in Frameworks */,
-				27465328174A9F6C0013546E /* libUAirshipPush-1.3.3.a in Frameworks */,
+				27727C8617A1608B009539D9 /* KinveyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +141,8 @@
 		274652F6174A9F690013546E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27727C8517A1608B009539D9 /* KinveyKit.framework */,
+				27727C8317A16082009539D9 /* libUAirship-1.4.0.a */,
 				274652F7174A9F690013546E /* UIKit.framework */,
 				274652F9174A9F690013546E /* Foundation.framework */,
 				274652FB174A9F690013546E /* CoreGraphics.framework */,
@@ -174,7 +176,6 @@
 				27465405175010280013546E /* ZonePickerViewController.xib */,
 				274654081750104F0013546E /* werkoutman.png */,
 				273B644217563BCB00E1B1B9 /* helpers */,
-				27465324174A9F6C0013546E /* Libraries */,
 				27465310174A9F690013546E /* Supporting Files */,
 			);
 			path = Workout;
@@ -192,15 +193,6 @@
 				2746531F174A9F690013546E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		27465324174A9F6C0013546E /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				27465325174A9F6C0013546E /* KinveyKit.framework */,
-				27465327174A9F6C0013546E /* libUAirshipPush-1.3.3.a */,
-			);
-			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,14 +372,14 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Workout\"",
+					"$(SRCROOT)/Workout/Kinvey",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Workout/Workout-Prefix.pch";
 				INFOPLIST_FILE = "Workout/Workout-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Workout\"",
+					"$(SRCROOT)/Workout/Airship",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -399,14 +391,14 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Workout\"",
+					"$(SRCROOT)/Workout/Kinvey",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Workout/Workout-Prefix.pch";
 				INFOPLIST_FILE = "Workout/Workout-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Workout\"",
+					"$(SRCROOT)/Workout/Airship",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
